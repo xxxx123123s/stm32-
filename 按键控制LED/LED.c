@@ -5,7 +5,7 @@
   * 参    数：无
   * 返 回 值：无
   */
-void LED_Init(void)
+void LED_Init(void)//灭建国是谁啊
 {
 	/*开启时钟*/
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);		//开启GPIOA的时钟
